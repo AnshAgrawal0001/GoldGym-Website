@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Gym</title>
+    <script>
+        function regd(){
+            alert(String.fromCharCode(9989)+"You are now 'Registered'.\n\tWe will get in touch with you soon.")
+        }
+    </script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="CSS/img/logo4.png" class="logo">
+        <p class="gg">GOLD GYM</p>
+        <ul>
+            <li><a class="active" href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#pkgs">PACKAGES</a></li>
+            <li><a href="#cntctus">CONTACT US</a></li>
+        </ul>
+
+    </nav> 
+    <div class="serve">
+        <h1>OUR SERVICES</h1>
+        <img src="CSS/img/services2.png" alt="">
+    </div>
+    <div class="cbg">
+        <div class="container" id="cntctus">
+            <h1>Contact us for any querry !!</h1>
+            <form >
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <button class="btn" onclick="regd()">Submit</button>
+            </form>
+        </div>
+        <br><br><br><br><br>
+    </div>
+    <div class="row1" id="pkgs">
+        <h1 class="packages">OUR PACKAGES</h1> 
+        <div class="row">
+            <div class="card" id="card1"  style="color: rgb(255, 255, 255); background: grey;">
+                <h2>SILVER</h2>
+                <p>Silver package is one month membership plan where we mainly focus on weight loss</p>
+                <h3 class="price">Rs. 1200 /-  only</h3>
+            </div>
+            <div class="card" id="card2" style="background: rgb(255, 255, 255);">
+                <h2 style="color: red;">GOLD</h2>
+                <p style="color: grey;">Gold package is six month membership plan where we mainly focus on weight loss,weight gain along with diet plans by well known dietitians</p>
+                <h3 class="price">Rs. 3000 /-  only</h3>
+            </div>
+            <div class="card" id="card3" style="color: rgb(255, 255, 255); background: red;">
+                <h2>PLATINUM</h2>
+                <p>Platinum package is one year long membership plan where we mainly focus on weight loss,weight gain,body building along with diet plans by well known dietitians</p>
+                <h3 class="price">Rs. 10000 /-  only</h3>
+            </div>
+        </div>
+	</div> 
+</body>
+</html>
